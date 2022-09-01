@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+dependencies = [
+    "numpy==1.22.*",
+    "bertopic",
+    "ipywidgets",
+    "jupyterlab",
+    "sphinxcontrib-bibtex",
+    "kaggle",
+    "pandas",
+    "matplotlib"
+]
+name = "ai-literature-analysis"
+version = "0.0.1"
