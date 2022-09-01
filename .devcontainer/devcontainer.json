@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.1/containers/python-3
+{
+    "name": "Python 3",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    // Configure tool-specific properties.
+    "customizations": {
+        // Configure properties specific to VS Code.
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "python.formatting.autopep8Path": "autopep8",
+                "python.linting.mypyPath": "mypy"
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "njpwerner.autodocstring",
+                "streetsidesoftware.code-spell-checker",
+                "donjayamanne.githistory",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-renderers",
+                "donjayamanne.python-extension-pack",
+                "richie5um2.vscode-sort-json",
+                "stkb.rewrap",
+                "tushortz.python-extended-snippets",
+                "ms-toolsai.jupyter-keymap"
+            ]
+        }
+    }
+}
