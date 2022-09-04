@@ -22,3 +22,11 @@ source ./venv/bin/activate
 pip install .
 jupyter lab
 ```
+
+## Exporting blog post
+
+This can be done with:
+
+```bash
+jupyter nbconvert ./AI_Literature_Blogpost.ipynb  --to html --TemplateExporter.exclude_input=True
+```
